@@ -3,6 +3,23 @@
 .menu-item {
   .nav-link {
     color: inherit;
+    .navButton {
+      cursor: pointer;
+      --color: #ffffff;
+      background: none;
+      color: white;
+      line-height: 1;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0.5em;
+      padding: 1em 1em 0.6em 1em;
+      box-shadow: 0.5em 0.5em 0 0 var(--color), inset 0.5em 0.5em 0 0 var(--color);
+      transition: 0.25s;
+    }
+    .navButton:hover, .navButton:focus {
+        box-shadow: 0 0 0 0 var(--color), inset 6em 3.5em 0 0 var(--color);
+        color: black;
+    }
   }
 
   .disabled-item {

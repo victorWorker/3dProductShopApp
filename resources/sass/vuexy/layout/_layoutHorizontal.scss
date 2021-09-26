@@ -56,6 +56,8 @@
     }
 
     .vs-navbar {
+      background: linear-gradient(
+        181deg, black, transparent);
       &:not(.vx-navbar) {
         background-color: #f7f7f7 !important;
       }
@@ -65,6 +67,8 @@
   &.navbar-sticky,
   &.navbar-static {
     .vs-navbar {
+      background: linear-gradient(
+        181deg, black, transparent);
       &.vx-navbar {
         box-shadow: 0px 10px 8px rgba(0,0,0,0.03);
       }

@@ -51,9 +51,9 @@ const router = new Router({
         component: () => import('@/layouts/shop-layout/shoplayout.vue'),
         children: [
           {
-            path: '/shop/login',
-            name: 'shop-login',
-            component: () => import('@/views/pages/Login.vue')
+            path: '/shop',
+            name: 'shop-landing',
+            component: () => import('@/views/shoppage/Landing.vue')
           },
         ],
       },
