@@ -144,6 +144,10 @@
         border-radius: 10px;
         .productImage{
             background-color: blanchedalmond;
+            img{
+                width: 100%;
+                height: 100%;
+            };
           }
     }
     .sticker{
@@ -181,8 +185,13 @@
             cursor: pointer;
             margin: 3px;
             border: 2px solid;
-            padding: 3px 10px;
+            padding: 3px 25px;
             border-radius: 3px;
+        }
+        .cartBtn:hover {
+            color: black;
+            background: white;
+            box-shadow: 1px 0px 10px 2px inset;
         }
     }
 }

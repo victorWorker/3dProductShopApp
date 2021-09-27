@@ -60,7 +60,7 @@
             <vx-card class="productCard">
               <div class="padScreen">
                 <div class="productImage">
-                  <img src="@assets/images/padHolder/productTest.jpg" width="340" height="200" alt="">
+                  <img src="@assets/images/padHolder/productTest.jpg" alt="">
                 </div>
               </div>
               <div class="sticker">
@@ -76,7 +76,7 @@
             <vx-card class="productCard">
               <div class="padScreen">
                 <div class="productImage">
-                  <img src="@assets/images/padHolder/productTest.jpg" width="340" height="200" alt="">
+                  <img src="@assets/images/padHolder/productTest.jpg" alt="">
                 </div>
               </div>
               <div class="sticker">
@@ -92,7 +92,7 @@
             <vx-card class="productCard">
               <div class="padScreen">
                 <div class="productImage">
-                  <img src="@assets/images/padHolder/productTest.jpg" width="340" height="200" alt="">
+                  <img src="@assets/images/padHolder/productTest.jpg" alt="">
                 </div>
               </div>
               <div class="sticker">
@@ -108,7 +108,7 @@
             <vx-card class="productCard">
               <div class="padScreen">
                 <div class="productImage">
-                  <img src="@assets/images/padHolder/productTest.jpg" width="340" height="200" alt="">
+                  <img src="@assets/images/padHolder/productTest.jpg" alt="">
                 </div>
               </div>
               <div class="sticker">
@@ -128,19 +128,171 @@
           <span class="logoTitleText">Let`s make Something new</span>
         </div>
       </div>
-      <div class="vx-col w-full categories">
-        <div class="vx-row">
-          <div class="vx-col xl:w-2/3 lg:w-2/3 md:w-2/3 w-2/3">
-            <img class="category_Img" src="@assets/images/padHolder/mount.png" alt="">
-          </div>
-          <div class="vx-col xl:w-1/3 lg:w-1/3 md:w-1/3 w-1/3">
-            <div class="vx-col xl:w-1/2 lg:w-1/2 md:w-1/2 w-1/2">
-              <img class="category_Img" src="@assets/images/padHolder/holder.jpg" alt="">
-            </div>
-            <div class="vx-col xl:w-1/2 lg:w-1/2 md:w-1/2 w-1/2">
-              <img class="category_Img" src="@assets/images/padHolder/stand.png" alt="">
+      <div class="vx-col w-full">
+        <div class="vx-row categories">
+          <div class="vx-col xl:w-3/4 lg:w-3/4 md:w-3/4 w-3/4 px-0 categoryItem h-full">
+            <div class="category_img1"></div>
+            <div class="category_text">
+              <span>Mount</span>
             </div>
           </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/4 w-1/4 h-full">
+            <div class="vx-col w-full px-0 pb-2 categoryItem height-50">
+              <div class="category_img2"></div>
+              <div class="category_text">
+                <span>Holder</span>
+              </div>
+            </div>
+            <div class="vx-col w-full px-0 pt-2 categoryItem height-50">
+              <div class="category_img3"></div>
+              <div class="category_text">
+                <span>stand</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="vx-col aboutLanding w-full">
+        <div class="vx-row maskLanding h-full">
+          <div class="vx-col xl:w-2/3 lg:w-2/3 md:w-1/2 w-10/12 text-center">
+            <span>Let`s Make Somthing New</span>
+            <p>At PadHolder, we custom design, develop, and produce high quality products to meet your demands. We can bring your ideas to life.</p>
+            <Button>About Us</Button>
+          </div>
+        </div>
+      </div>
+      <div class="vx-col blogLanding w-full">
+        <div class="vx-row firstBar px-6 w-full">
+          <div class="vx-col">
+            <span>Our Blog</span>
+          </div>
+          <div class="vx-col">
+            <button type="button">View All</button>
+          </div>
+        </div>
+        <div class="vx-row sendBar px-6 pt-6 w-full">
+          <div class="vx-col xl:w-1/3 lg:w-1/3 md:w-1/2 w-4/12 text-start">
+            <vx-card class="BlogCard">
+              <div slot="no-body">
+                  <img src="@assets/images/padHolder/blog1.jpg" alt="blog-img" class="blogImg responsive card-img-top">
+              </div>
+              <h1 class="mb-2 blogHead">Rugged table vs.</h1>
+              <div class="text-grey blogText">
+                You’ve finally made the decision to upgrade your warehouse to electronic data logging, now what? Do you choose a rugged tablet, mobile computer or a consumer device? More importantly, how will you house and mount these electronics to protect your investment? Here are a few questions to ask yourself before diving in head first.
+              </div>
+              <div class="flex justify-end flex-wrap">
+                  <vs-button class="mt-4" type="border" color="#b9b9b9">Read More</vs-button>
+              </div>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/3 lg:w-1/3 md:w-1/2 w-4/12 text-start">
+            <vx-card class="BlogCard">
+              <div slot="no-body">
+                  <img src="@assets/images/padHolder/blog2.jpg" alt="blog-img" class="blogImg responsive card-img-top">
+              </div>
+              <h1 class="mb-2 blogHead">Are you eld complaint? The Deadline is coming... Fast</h1>
+              <div class="text-grey blogText">
+                You’ve finally made the decision to upgrade your warehouse to electronic data logging, now what? Do you choose a rugged tablet, mobile computer or a consumer device? More importantly, how will you house and mount these electronics to protect your investment? Here are a few questions to ask yourself before diving in head first.
+              </div>
+              <div class="flex justify-end flex-wrap">
+                  <vs-button class="mt-4" type="border" color="#b9b9b9">Read More</vs-button>
+              </div>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/3 lg:w-1/3 md:w-1/2 w-4/12 text-start">
+            <vx-card class="BlogCard">
+              <div slot="no-body">
+                  <img src="@assets/images/padHolder/blog3.jpg" alt="blog-img" class="blogImg responsive card-img-top">
+              </div>
+              <h1 class="mb-2 blogHead">Nintendo switch headrest mount</h1>
+              <div class="text-grey blogText">
+                Many people are very excited to see what Nintendo has in store for us with their new Switch coming out in March. One thing that we have got some reaction to is if we will be manufacturing a mount so you can use the Switch in your vehicle, and the answer is YES! 
+              </div>
+              <div class="flex justify-end flex-wrap">
+                  <vs-button class="mt-4" type="border" color="#b9b9b9">Read More</vs-button>
+              </div>
+            </vx-card>
+          </div>
+        </div>
+      </div>
+      <div class="vx-col industialLanding w-full">
+        <div class="vx-row px-6 w-full">
+          <div class="vx-col text-center w-full">
+            <h1>Industries</h1>
+          </div>
+        </div>
+        <div class="vx-row px-6 w-full">
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial1.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial2.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial3.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial4.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial5.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial6.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial7.png" alt="industrial-cover" class="industyImg responsive">
+              </template>
+            </vx-card>
+          </div>          
+          <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12 mt-6">
+            <vx-card class="overlay-card overflow-hidden">
+              <template slot="no-body">
+                  <img src="@assets/images/padHolder/industrial8.png" alt="industrial-cover" class="responsive">
+              </template>
+            </vx-card>
+          </div>
+        </div>
+      </div>
+      <div class="vx-col contactLanding w-full">
+        <div class="vx-row w-full">
+          <div class="vx-col xl:w-1/2 lg:w-1/2 md:w-1/2 w-10/12 m-auto text-center">
+            <h1>Please Contact Us</h1>
+            <input tyle="email" placeholder="Email"/>
+            <textarea name="detail" id="" cols="30" rows="10" placeholder="Detail"></textarea>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="vx-col lasklogoLanding w-full">
+        <div class="vx-row justify-center items-center h-full w-full">
+          <img src="@assets/images/logo/logo_white_main.png" alt="logo-last">
         </div>
       </div>
     </div>
@@ -229,8 +381,5 @@ export default {
   font-family: forum;
   color: white;
   outline: 1;
-}
-.category_Img{
-  width: 100%;
 }
 </style>

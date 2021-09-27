@@ -16,6 +16,11 @@
   z-index: 10000;
 }
 
+.shopHeader{
+  .vx-navbar-wrapper {
+    position: absolute !important;
+  }
+}
 .navbar-sticky,
 .navbar-floating {
   .vx-navbar-wrapper {

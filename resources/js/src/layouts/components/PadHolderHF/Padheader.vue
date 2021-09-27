@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar-sticky">
+    <div class="navbar-sticky shopHeader">
       <div class="vx-navbar-wrapper navbar-full">
         <vs-navbar class="vs-navbar vx-navbar navbar-custom navbar-skelton vs-navbar-null static">
           <div class="vx-col lg:w-1/3 items-left justify-start text-left">

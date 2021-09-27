@@ -63,7 +63,11 @@
       }
     }
   }
-
+  .shopHeader{
+    .vx-navbar-wrapper{
+      position: absolute !important;
+    }
+  }
   &.navbar-sticky,
   &.navbar-static {
     .vs-navbar {
@@ -74,7 +78,7 @@
       }
     }
   }
-
+  
   &.navbar-static {
     .router-content {
 
