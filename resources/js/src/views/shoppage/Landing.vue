@@ -61,6 +61,7 @@
               <div class="padScreen">
                 <div class="productImage">
                   <img src="@assets/images/padHolder/productTest.jpg" alt="">
+                  <div class="productName"><span> product name</span></div>
                 </div>
               </div>
               <div class="sticker">
@@ -77,6 +78,7 @@
               <div class="padScreen">
                 <div class="productImage">
                   <img src="@assets/images/padHolder/productTest.jpg" alt="">
+                  <div class="productName"><span> product name</span></div>
                 </div>
               </div>
               <div class="sticker">
@@ -93,6 +95,7 @@
               <div class="padScreen">
                 <div class="productImage">
                   <img src="@assets/images/padHolder/productTest.jpg" alt="">
+                  <div class="productName"><span> product name</span></div>
                 </div>
               </div>
               <div class="sticker">
@@ -109,6 +112,7 @@
               <div class="padScreen">
                 <div class="productImage">
                   <img src="@assets/images/padHolder/productTest.jpg" alt="">
+                  <div class="productName"><span> product name</span></div>
                 </div>
               </div>
               <div class="sticker">
@@ -288,11 +292,6 @@
             <textarea name="detail" id="" cols="30" rows="10" placeholder="Detail"></textarea>
             <button>Submit</button>
           </div>
-        </div>
-      </div>
-      <div class="vx-col lasklogoLanding w-full">
-        <div class="vx-row justify-center items-center h-full w-full">
-          <img src="@assets/images/logo/logo_white_main.png" alt="logo-last">
         </div>
       </div>
     </div>

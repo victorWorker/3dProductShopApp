@@ -5,16 +5,20 @@
           <div class="vx-col lg:w-1/3 items-left justify-start text-left">
             <ul class="menu-item flex flex-wrap w-full items-center justify-start">
               <li class="nav-link px-1">
-                <span class="navButton">Holders</span>
+                <router-link to="/holders">
+                  <button class="navButton">Holders</button>
+                </router-link>
               </li>
               <li class="nav-link px-1">
-                <span class="navButton">Mounting</span>
+                <router-link to="/mounts">
+                  <button class="navButton">Mounting</button>
+                </router-link>
               </li>
               <li class="nav-link px-1" >
-                <span class="navButton">stands&carts</span>
+                <button class="navButton">stands&carts</button>
               </li>
               <li class="nav-link px-1" >
-                <span class="navButton">combinations</span>
+                <button class="navButton">combinations</button>
               </li>
             </ul>
           </div>
@@ -35,7 +39,7 @@
                 <vs-input icon-pack="feather" icon="icon-search" placeholder="Search" />
               </li>
               <li class="nav-link vx-logo items-center px-3">
-                <span class="navButton">Login</span>
+                <button class="navButton">Login</button>
               </li>
             </ul>
           </div>

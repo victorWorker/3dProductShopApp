@@ -1,5 +1,10 @@
 <template>
   <footer class="the-footer shopFooter flex-wrap justify-between">
+    <div class="vx-col lasklogoLanding w-full">
+      <div class="vx-row justify-center items-center h-full w-full">
+        <img src="@assets/images/logo/logo_white_main.png" alt="logo-last">
+      </div>
+    </div>
     <div class="vx-col w-full">
       <div class="vx-row w-full">
         <hr class="w-full mb-6">
@@ -18,9 +23,21 @@
         <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12">
           <h3>Shop</h3>
           <ul>
-            <li>Shop All</li>
-            <li>Holders</li>
-            <li>Mounting</li>
+            <li>
+              <router-link to="/shop">
+                Shop All
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/holders">
+                Holders
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/mounts">
+                Mounting
+              </router-link>
+            </li>
             <li>Stands&Carts</li>
             <li>Cominations</li>
           </ul>

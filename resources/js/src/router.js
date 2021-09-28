@@ -20,7 +20,35 @@ const router = new Router({
         return { x: 0, y: 0 }
     },
     routes: [
-
+        // =============================================================================
+        // SHOP LAYOUT
+        // =============================================================================
+        {
+          path: '',
+          component: () => import('@/layouts/shop-layout/shoplayout.vue'),
+          children: [
+            {
+              path: '/',
+              name: 'shop-landing',
+              component: () => import('@/views/shoppage/Landing.vue')
+            },
+            {
+              path: '/shop',
+              name: 'shoplist',
+              component: () => import('@/views/shoppage/Shopping.vue')
+            },
+            {
+              path: '/holders',
+              name: 'holderslist',
+              component: () => import('@/views/shoppage/Holders.vue')
+            },
+            {
+              path: '/mounts',
+              name: 'mountslist',
+              component: () => import('@/views/shoppage/Mounting.vue')
+            }
+          ],
+        },
         {
     // =============================================================================
     // MAIN LAYOUT ROUTES
@@ -32,7 +60,7 @@ const router = new Router({
         // Theme Routes
         // =============================================================================
               {
-                path: '/',
+                path: '/admin',
                 name: 'home',
                 component: () => import('./views/Home.vue')
               },
@@ -43,20 +71,6 @@ const router = new Router({
               },
             ],
         },
-    // =============================================================================
-    // SHOP LAYOUT
-    // =============================================================================
-      {
-        path: '',
-        component: () => import('@/layouts/shop-layout/shoplayout.vue'),
-        children: [
-          {
-            path: '/shop',
-            name: 'shop-landing',
-            component: () => import('@/views/shoppage/Landing.vue')
-          },
-        ],
-      },
     // =============================================================================
     // FULL PAGE LAYOUTS
     // =============================================================================
