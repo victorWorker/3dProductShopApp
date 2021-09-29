@@ -33,6 +33,11 @@ const router = new Router({
               component: () => import('@/views/shoppage/Landing.vue')
             },
             {
+              path: '/about',
+              name: 'aboutus',
+              component: () => import('@/views/shoppage/Aboutus.vue')
+            },
+            {
               path: '/shop',
               name: 'shoplist',
               component: () => import('@/views/shoppage/Shopping.vue')
@@ -46,6 +51,21 @@ const router = new Router({
               path: '/mounts',
               name: 'mountslist',
               component: () => import('@/views/shoppage/Mounting.vue')
+            },
+            {
+              path: '/stands',
+              name: 'standsslist',
+              component: () => import('@/views/shoppage/Stands.vue')
+            },
+            {
+              path: '/combination',
+              name: 'combinationlist',
+              component: () => import('@/views/shoppage/combination.vue')
+            },
+            {
+              path: '/contact',
+              name: 'contact',
+              component: () => import('@/views/shoppage/Contact.vue')
             }
           ],
         },

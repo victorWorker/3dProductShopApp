@@ -15,15 +15,21 @@
                 </router-link>
               </li>
               <li class="nav-link px-1" >
+                <router-link to="/stand">
                 <button class="navButton">stands&carts</button>
+                </router-link>
               </li>
               <li class="nav-link px-1" >
-                <button class="navButton">combinations</button>
+                <router-link to="/combination">
+                  <button class="navButton">combinations</button>
+                </router-link>
               </li>
             </ul>
           </div>
           <div class="vx-col lg:w-1/3 items-center justify-center text-center">
-            <img src="@assets/images/padHolder/padholderavata.png" width="200" height="200" alt="">
+            <router-link to="/">
+              <img src="@assets/images/logo/PadHold_Avatar_Dark.png" width="200" height="200" alt="">
+            </router-link>
           </div>
           <div class="vx-col lg:w-1/3 items-right justify-end text-right">
             <ul class="menu-item flex flex-wrap items-center justify-end">

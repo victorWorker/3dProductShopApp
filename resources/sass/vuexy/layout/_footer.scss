@@ -45,6 +45,21 @@
   padding: 1rem 2.2rem;
 }
 .shopFooter{
+  .lastlogoLanding{
+    background-color: #000000;
+    padding: 3em;
+    height: 20vh;
+    .footerlogoContain{
+      position: relative;
+      .footerlogo{
+        width: 25vw !important;
+        transition: 3s;
+      }
+      .footerlogo:hover{
+        width: 35vw !important;
+      }
+    }
+  }
   background-color: #000;
   h3{
     cursor: pointer;

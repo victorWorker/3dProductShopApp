@@ -2,7 +2,7 @@
   <div class="w-full shopPage">
     <div class="vx-row">
       <div class="vx-col w-full">
-        <h1 class="pageTitle">Holders</h1>
+        <h1 class="pageTitle">Products of PADHolder</h1>
       </div>
     </div>
     <div class="vx-row px-24">

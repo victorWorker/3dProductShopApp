@@ -34,7 +34,7 @@
             </parallax>
             <div class="pallaxTextContent">
               <div class="pallaxTextBody xl:w-3/4 lg:w-4/5 md:w-2/3 w-4/5">
-                <span class="pallaxSpan text-dark">It is work with Medical</span>
+                <span class="pallaxSpan text-dark">It works with Medical</span>
                 <br>
                 <vs-button color="dark" size="large" type="border" class="mt-3">Shop Now</vs-button>
               </div>
@@ -288,8 +288,19 @@
         <div class="vx-row w-full">
           <div class="vx-col xl:w-1/2 lg:w-1/2 md:w-1/2 w-10/12 m-auto text-center">
             <h1>Please Contact Us</h1>
-            <input tyle="email" placeholder="Email"/>
-            <textarea name="detail" id="" cols="30" rows="10" placeholder="Detail"></textarea>
+            <div class="vx-row w-full">
+              <div class="vx-col xl:w-1/2 lg:w-1/2 md:w-1/2 w-10/12">
+                <input tyle="text" placeholder="name"/>
+              </div>
+              <div class="vx-col xl:w-1/2 lg:w-1/2 md:w-1/2 w-10/12">
+                <input tyle="email" placeholder="Email"/>
+              </div>
+            </div>
+            <div class="vx-row w-full mt-6">
+              <div class="vx-col w-full">
+                <textarea name="detail" id="" cols="30" rows="10" placeholder="Detail"></textarea>
+              </div>
+            </div>
             <button>Submit</button>
           </div>
         </div>
@@ -332,30 +343,7 @@ export default {
 .landingContent{
   height: 100vh;
 }
-.pallaxTextContent{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  padding-top: 220px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.pallaxTextBody{
-  position: relative;
-  z-index: 5000 !important;
-  padding: 25px 100px;
-  margin-top: -100px;
-  text-align: center;
-  display: block;
-}
-.pallaxSpan{
-    font: normal normal normal 90px/1.4em forum, serif;
-    /* font-size: 40px !important; */
-    font-weight: 600;
-    text-shadow: 1px 2px 15px #797979;
-}
+
 .newProducts{
   padding: 50px 50px;
 }

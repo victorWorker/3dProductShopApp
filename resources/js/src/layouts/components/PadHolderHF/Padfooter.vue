@@ -1,8 +1,8 @@
 <template>
   <footer class="the-footer shopFooter flex-wrap justify-between">
-    <div class="vx-col lasklogoLanding w-full">
-      <div class="vx-row justify-center items-center h-full w-full">
-        <img src="@assets/images/logo/logo_white_main.png" alt="logo-last">
+    <div class="vx-col lastlogoLanding w-full">
+      <div class="vx-row justify-center items-center h-full w-full footerlogoContain">
+        <img src="@assets/images/logo/Padholder_Logo_white.png" class="footerlogo" alt="logo-last">
       </div>
     </div>
     <div class="vx-col w-full">
@@ -38,8 +38,8 @@
                 Mounting
               </router-link>
             </li>
-            <li>Stands&Carts</li>
-            <li>Cominations</li>
+            <li><router-link to="/stands">Stands&Carts</router-link></li>
+            <li><router-link to="/combination"> Cominations </router-link></li>
           </ul>
         </div>
         <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12">
@@ -47,8 +47,16 @@
           <ul>
             <li>Why PadHolder?</li>
             <li>OEM</li>
-            <li>Abount Us</li>
-            <li>Contact</li>
+            <li>
+              <router-link to="/about">
+                Abount Us
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/contact">
+                  Contact
+              </router-link>
+            </li>
             <li>Terms & Privacy</li>
             <li>Return Policy</li>
             <li>Contact Us</li>

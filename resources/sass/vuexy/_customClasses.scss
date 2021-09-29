@@ -742,11 +742,7 @@ ul.bordered-items {
     transition: 1s;
   }
 }
-.lasklogoLanding{
-  background-color: #000000;
-  padding: 3em;
-  height: 20vh;
-}
+
 .shopPage{
   // background-image: url('/images/padHolder/HiRes.jpg');
   background-color: #000;
@@ -847,6 +843,72 @@ ul.bordered-items {
     }
   }
 }
+.aboutPage{
+  text-align: center;
+  background-size: cover;
+  .titlebar{
+    height: 100vh;
+    .titleText{
+      position: absolute;
+      padding-top: 230px;
+      top: 0;
+      color: white;
+      .titleSpan{
+        font-size: 90px;
+        font-weight: 600;
+        font: normal normal normal 90px/1.4em forum, serif;
+        margin-bottom: 1.5em;
+      }
+    }
+  }
+  p{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: start;
+    font: normal normal normal 25px/1.4em questrial, sans-serif;
+    margin-bottom: 1em;
+    color: white;
+  }
+  .detailbar_left{
+    background-image: url("/images/padHolder/aboutBg1.jpg");
+    background-position: center;
+    background-size: auto 100%;
+  }
+  .lastText_left{
+    padding:3em 5em;
+  }
+  .lastText-right{
+    background-image: url("/images/padHolder/aboutBg2.jpg");
+    background-position: center;
+    background-size: auto 100%;
+  }
+}
+
+.pallaxTextContent{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  padding-top: 220px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  .pallaxTextBody{
+    position: relative;
+    z-index: 5000 !important;
+    padding: 25px 100px;
+    margin-top: -100px;
+    text-align: center;
+    display: block;
+    .pallaxSpan{
+      font: normal normal normal 90px/1.4em forum, serif;
+      /* font-size: 40px !important; */
+      font-weight: 600;
+      text-shadow: 1px 2px 15px #797979;
+    }
+  }
+}
+
+
 a:active, a:visited, a:hover, a{
   color: white !important;
 }
