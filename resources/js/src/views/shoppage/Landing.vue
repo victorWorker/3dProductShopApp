@@ -161,7 +161,9 @@
           <div class="vx-col xl:w-2/3 lg:w-2/3 md:w-1/2 w-10/12 text-center">
             <span>Let`s Make Somthing New</span>
             <p>At PadHolder, we custom design, develop, and produce high quality products to meet your demands. We can bring your ideas to life.</p>
-            <Button>About Us</Button>
+            <router-link to="/about">
+              <Button>About Us</Button>            
+            </router-link>
           </div>
         </div>
       </div>

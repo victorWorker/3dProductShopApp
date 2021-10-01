@@ -45,8 +45,16 @@
         <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12">
           <h3>customer care</h3>
           <ul>
-            <li>Why PadHolder?</li>
-            <li>OEM</li>
+            <li>
+              <router-link to="/why-padholder">
+                Why PadHolder?  
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/custom-design">
+              OEM
+              </router-link>
+            </li>
             <li>
               <router-link to="/about">
                 Abount Us
@@ -54,12 +62,19 @@
             </li>
             <li>
               <router-link to="/contact">
-                  Contact
+                  Contact Us
               </router-link>
             </li>
-            <li>Terms & Privacy</li>
-            <li>Return Policy</li>
-            <li>Contact Us</li>
+            <li>
+              <router-link to="/privacy-policy">
+                Terms & Privacy  
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/return-policy">
+              Return Policy
+              </router-link>
+            </li>
           </ul>
         </div>
         <div class="vx-col xl:w-1/4 lg:w-1/4 md:w-1/2 w-10/12">

@@ -843,6 +843,162 @@ ul.bordered-items {
     }
   }
 }
+.privacyPage{
+  background-color: black;
+  padding-top: 220px;
+  .policy-contain{
+    border: 1px solid white;
+    border-radius: 20px;
+    p{
+      color: white;
+      font: normal normal normal 24px/1.4em questrial, sansserif;
+    }
+    ul{
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      li{
+        color: white;
+        font: normal normal normal 24px/1.4em questrial, sansserif;
+      }
+    }
+    h4{
+      color: white;
+      font: normal normal normal 35px/1.4em forum, serif;
+      font-weight: bold;
+      margin-top: 1em;
+      margin-bottom: 0.2em;
+    }
+    h6{
+      color: white;
+      font: normal normal normal 26px/2em questrial, small-caption;
+      font-weight: bold;
+    }
+    hr{
+      margin-bottom: 1.3em;
+    }
+  }
+}
+.custompage{
+  .partOne{
+    padding-top: 220px;
+    background-color: black;
+    margin: 0;
+    .leftOne{
+      padding-left: 21em;
+      padding-right: 3em;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      text-align: end;
+    }
+    .rightOne{
+      background-image: url("/images/padHolder/oembg.jpg");
+      background-size: auto 100%;
+      background-position-x: right;
+    }
+    h1{
+      font-size: 80px;
+      font-weight: 800;
+      color: white;
+      b{
+        color: lime;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .endOne{
+    height: 80vh;
+    position: relative;
+    .textMask{
+      position: absolute;
+      top: 0%;
+      background-color: #0000004f;
+      color: white;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      h2{
+        margin-top: 1em;
+        margin-bottom: 0.6em;
+        font: normal normal normal 90px/1.4em forum, serif;
+        font-weight: bolder;
+        color: white;
+      }
+      ul{
+        list-style-type: disc;
+        li{
+          font: normal normal normal 40px/1.4em forum, serif;
+          font-weight: bolder;
+          color: white;
+        }
+      }
+    }
+  }
+  .ourWorks{
+    background-color: black;
+    color: white;
+    h1{
+      font: normal normal normal 60px/1.4em forum, serif;
+      color: white;
+      text-align: center;
+    }
+    .workCard{
+      border: 1px solid white;
+      border-radius: 5px;
+      .leftSide{
+        border-right: 1px solid white;
+        padding: 3em;
+        h3{
+          color: white;
+          font: normal normal normal 30px/1.4em forum, serif;
+          text-align: center;
+        }
+        hr{
+          margin-bottom: 3em;
+          margin-top: 0.6em;
+        }
+        p{
+          font: normal normal normal 21px/1.7em questrial sans-serif;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+  .workWith{
+    background-color: #d9d4c9;
+    padding: 3em 4em;
+    h1{
+      font: normal normal normal 60px/1.4em forum, serif;
+      text-align: center;
+      margin-bottom: 0.8em;
+    }
+    .withImg{
+      border-radius: 5px;
+      transition: all .6s ease-in-out;
+    }
+    .withImg:hover{
+      transform: scale(1.1);
+    }
+  }
+  .someCustomers{
+    background: white;
+    color: black;
+    h1{
+      font: normal normal normal 60px/1.4em forum, serif;
+      text-align: center;
+      margin-bottom: 0.8em;
+      color: black;
+    }
+    .parallaxView{
+      padding-left: 12em !important;
+      padding-right: 12em !important;
+    }
+  }
+}
+.pageTitle{
+  font-weight: bold;
+  color: white;
+  font: normal normal normal 90px/1.4em forum, serif;
+}
 .aboutPage{
   text-align: center;
   background-size: cover;

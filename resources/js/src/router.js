@@ -33,6 +33,26 @@ const router = new Router({
               component: () => import('@/views/shoppage/Landing.vue')
             },
             {
+              path: '/privacy-policy',
+              name: 'privacy-policy',
+              component: () => import('@/views/shoppage/Privacy.vue')
+            },
+            {
+              path: '/return-policy',
+              name: 'return-policy',
+              component: () => import('@/views/shoppage/Returnpolicy.vue')
+            },
+            {
+              path: '/why-padholder',
+              name: 'why-padholder',
+              component: () => import('@/views/shoppage/Whypadholder.vue')
+            },
+            {
+              path: '/custom-design',
+              name: 'custom-design',
+              component: () => import('@/views/shoppage/Customdesign.vue')
+            },
+            {
               path: '/about',
               name: 'aboutus',
               component: () => import('@/views/shoppage/Aboutus.vue')
