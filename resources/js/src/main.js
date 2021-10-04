@@ -14,8 +14,8 @@ import App from './App.vue'
 // Vuesax Component Framework
 import Vuesax from 'vuesax'
 
-Vue.use(Vuesax)
 
+Vue.use(Vuesax)
 
 // axios
 import axios from './axios.js'

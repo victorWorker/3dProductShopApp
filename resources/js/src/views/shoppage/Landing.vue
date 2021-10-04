@@ -4,7 +4,7 @@
       <div class="vx-col w-full landingContent">
         <swiper :options="swiperOption" dir="ltr">
           <swiper-slide>
-            <parallax :speed-factor="0.5" direction="up" :parallax="true">
+            <parallax :speed-factor="0.15" direction="up" :fixed="true" :parallax="true">
               <img src="@assets/images/padHolder/restaurant.jpg" alt=""> 
             </parallax>
             <div class="pallaxTextContent">
@@ -17,8 +17,8 @@
             </div>
           </swiper-slide>
           <swiper-slide>
-            <parallax :speed-factor="0.5" direction="up" :parallax="true">
-              <img src="@assets/images/padHolder/padImg.jpg" alt=""> 
+            <parallax :speed-factor="0" direction="up" :parallax="true">
+              <img src="@assets/images/padHolder/padImg.jpg" alt="" style="height: 100vh"> 
             </parallax>
             <div class="pallaxTextContent">
               <div class="pallaxTextBody xl:w-3/4 lg:w-4/5 md:w-2/3 w-4/5">
@@ -29,8 +29,8 @@
             </div>
           </swiper-slide>
           <swiper-slide>
-            <parallax :speed-factor="0.5" direction="up" :parallax="true">
-              <img src="@assets/images/padHolder/medical.jpg" alt=""> 
+            <parallax :speed-factor="0" direction="up" :parallax="true">
+              <img src="@assets/images/padHolder/medical.jpg" alt="" style="height: 100vh"> 
             </parallax>
             <div class="pallaxTextContent">
               <div class="pallaxTextBody xl:w-3/4 lg:w-4/5 md:w-2/3 w-4/5">
